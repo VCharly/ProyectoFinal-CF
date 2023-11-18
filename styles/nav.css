@@ -1,0 +1,99 @@
+/* NavigationWrapper */
+
+.navigation-wrapper {
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* used display flex in logo and links */
+
+.navigation-wrapper > .logo-links-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+/* logotipo */
+
+.navigation-wrapper > .logo-links-wrapper > .logo-column img {
+	height: 35px;
+	width: auto;
+	margin: 10px 0px 0px 25px;
+}
+
+/* linksColumn */
+
+.navigation-wrapper > .logo-links-wrapper > .links-column {
+	width: 455px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 6px;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .explore {
+	font-weight: 800;
+	color: #e9cb79;
+}
+
+/* links column - wrapper */
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .nav-link a {
+	font-weight: 800;
+	color: white;
+	text-decoration: none;
+	font-size: 1.20em;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .nav-link a:hover {
+	color: #b8b7b7;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron a {
+	font-weight: 700;
+	font-size: 1.1em;
+	color: #c2c2c2;
+	text-decoration: none;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron a:hover {
+	color: #dad8d8;
+}
+
+.navigation-wrapper > .logo-links-wrapper > .links-column > .links-wrapper > .spark-chevron i {
+	margin-left: 9px;
+	font-size: 0.9em;
+}
+
+/* log in and sign up */
+
+.navigation-wrapper > .create-login-signup {
+	width: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	gap: 14px;
+	margin-right: 9px;
+}
+
+/* icon search */
+
+.navigation-wrapper > .create-login-signup > .search-icon a {
+	color: white;
+	opacity: 0.5;
+	font-size: 1.8em;
+	margin: 10px;
+}
+
+.navigation-wrapper > .create-login-signup > .search-icon a:hover {
+	color: rgb(241, 245, 219);
+}

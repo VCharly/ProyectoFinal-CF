@@ -1,0 +1,56 @@
+/* apartado de botones */
+
+.grey-btn {
+	background-color: #34363b;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	font-size: 1.15em;
+	font-weight: 700;
+	padding: 15px 25px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+/* icono  */
+.grey-btn i {
+	color: #3fd072;
+	font-size: 1.2em;
+}
+
+.grey-btn:hover {
+	background-color: #5d6171;
+	cursor: pointer;
+}
+
+.green-btn {
+	background-color: #47cf73;
+	border: none;
+	border-radius: 3px;
+	color: black;
+	font-size: 1.8em;
+	font-weight: 700;
+	padding: 18px 27px;
+}
+
+.green-btn:hover {
+	background-color: #27974c;
+	color: white;
+	cursor: pointer;
+}
+
+.black-btn {
+	background-color: #111111;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-size: 1.8em;
+	font-weight: 700;
+	padding: 18px 30px;
+}
+
+.black-btn:hover {
+	background-color: #2d2c2c;
+	cursor: pointer;
+}
